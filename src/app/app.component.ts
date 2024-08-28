@@ -4,11 +4,12 @@ import { OfComponent } from "./operators/of/of.component";
 import { FromComponent } from "./operators/from/from.component";
 import { RangComponent } from "./operators/rang/rang.component";
 import { IntervalComponent } from "./operators/interval/interval.component";
+import { AjaxComponent } from "./operators/ajax/ajax.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, OfComponent, FromComponent, RangComponent, IntervalComponent],
+  imports: [RouterOutlet, OfComponent, FromComponent, RangComponent, IntervalComponent, AjaxComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
